@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+header{
+   margin-left: 60px;
+   margin-bottom: -10px;
+}
+h1{
+    color:rgb(190, 147, 81)
+}
+
+div{
+    border: 2px solid rgba(199, 141, 48, 0.253) ;
+    border-radius: 15px;
+    padding-bottom: 20px;
+    margin: 2rem 5rem 1rem ;
+    background-color: rgba(240, 224, 199, 0.144);
+}
+
+body{
+    color: rgb(143, 92, 10);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ .fieldset{
+    border: 2px solid rgb(172, 142, 94);
+    border-radius: 5px;
+}
+#fieldset-selection{
+    border: 2px solid rgb(139, 119, 87);
+    border-radius: 5px;
+    padding-left:30px;
+    padding-right: 30px;
+}
+
+#fieldset-arquivo{
+    border: 2px solid rgb(172, 142, 94);
+    border-radius: 5px;
+    padding: 15px;
+
+}
+
+#fullname{
+    padding: 5px;
+}
+
+#btn{
+    margin-top: 3%;
+    padding: 10px;
+    border-radius: 5px ;
+    border-color: rgb(199, 141, 48);
+    background-color: rgb(207, 145, 44);
+    font-family: "Roboto", sans-serif ;
+    font-weight: 500px;
+    color: azure;
+    cursor: pointer;
+}
+input{
+    color:rgba(219, 211, 211, 0.397) ;
+}
+
+footer{
+    margin-top: -15px;
+    text-align: center;
+    color: rgb(192, 158, 107);
+}
